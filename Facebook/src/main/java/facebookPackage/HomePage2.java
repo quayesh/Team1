@@ -29,6 +29,7 @@ WebElement password;
      }
      public void setPassword(){
          password.sendKeys("1234");
+         sleepFor(3);
 
      }
 

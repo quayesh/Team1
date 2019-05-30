@@ -290,6 +290,7 @@ public class CommonAPI {
     }
 
     public void clickOnCss(String locator) {
+
         driver.findElement(By.cssSelector(locator)).click();
     }
 

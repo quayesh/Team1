@@ -17,6 +17,13 @@ SignUp signUp;
 @Test
     public void setSignUp(){
     signUp.setFirstName();
+    sleepFor(3);
 }
+@Test
+    public void setSignUp1(){
+    signUp.setLastName();
+
+}
+
 
 }

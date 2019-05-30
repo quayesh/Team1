@@ -15,13 +15,19 @@ public class TestHomePage2 extends CommonAPI{
 
     }
 
-    @Test(priority = 1)
+   //  @Test(priority = 1)
     public void setEmailBoxTest(){
         homePage2.setEmailBox();
     }
-    @Test
+    //@Test
     public void setPasswordTest(){
         homePage2.setPassword();
+
+    }
+    @Test
+    public void applyXpathTest(){
+        clickByXpath("//*[@id=\"js_0\"]/ul/li[16]/a");
+
     }
 
 
