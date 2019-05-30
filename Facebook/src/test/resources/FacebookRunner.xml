@@ -16,7 +16,8 @@
         <classes>
 <!--           <class name="testFacebookPackage.TestHomePage2"/>-->
 <!--            <class name="testFacebookPackage.TestSignUp"/>-->
-            <class name="testFacebookPackage.TestPlaces"/>
+<!--            <class name="testFacebookPackage.TestPlaces"/>-->
+            <class name="testFacebookPackage.TestAccountSecurity"/>
 
 
         </classes>
