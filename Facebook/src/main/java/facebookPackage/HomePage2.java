@@ -13,11 +13,18 @@ public class HomePage2 extends CommonAPI {
     WebElement password;
     @FindBy(xpath = "//input[@value='Log In']")
     WebElement clickLogIn;
+    @FindBy(xpath="//*[@id=\"content\"]/div/div/div/div/div[1]/div[1]/div[2]/span[1]")
+    WebElement markOnSeePhotosAndUpdates;
+    @FindBy(linkText = "findMore")
+    WebElement findMore;
 
     public void setEmailBox() {
         emailBox.sendKeys("abm");
 
+    }
 
+    public void setMarkOnSeePhotosAndUpdates(){
+        markOnSeePhotosAndUpdates.click();
     }
 
     public void setPassword() {
@@ -28,6 +35,10 @@ public class HomePage2 extends CommonAPI {
 
     public void clickLogIn() {
         clickLogIn.click();
+    }
+
+    public void setFindMore(){
+        findMore.click();
     }
 
 }

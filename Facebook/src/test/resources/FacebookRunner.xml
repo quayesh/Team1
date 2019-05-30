@@ -15,7 +15,8 @@
     <test name="Facebook Home">
         <classes>
 <!--           <class name="testFacebookPackage.TestHomePage2"/>-->
-            <class name="testFacebookPackage.TestSignUp"/>
+<!--            <class name="testFacebookPackage.TestSignUp"/>-->
+            <class name="testFacebookPackage.TestPlaces"/>
 
 
         </classes>

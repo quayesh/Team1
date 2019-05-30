@@ -13,6 +13,8 @@ public class SignUp extends CommonAPI {
     WebElement MN;
     @FindBy(name = "reg_passwd__")
     WebElement NP;
+    @FindBy(name="sex")
+    WebElement MF;
 
     public void setFirstName() {
 
@@ -30,6 +32,10 @@ public class SignUp extends CommonAPI {
     }
 
     public void createNewPassword() {
+
         NP.sendKeys("hello");
+    }
+    public void markOnFemal(){
+        MF.click();
     }
 }

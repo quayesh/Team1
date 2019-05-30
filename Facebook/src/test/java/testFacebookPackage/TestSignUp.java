@@ -37,6 +37,10 @@ public class TestSignUp extends CommonAPI {
     public void createNewPassword() {
         signUp.createNewPassword();
     }
+    @Test
+    public void markOnFemal(){
+        signUp.markOnFemal();
+    }
 
 
 }

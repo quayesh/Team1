@@ -30,6 +30,14 @@ public class TestHomePage2 extends CommonAPI {
         homePage2.clickLogIn();
 
     }
+    @Test
+    public void markOnPhotosAndUpdates(){
+        homePage2.setMarkOnSeePhotosAndUpdates();
+    }
+    @Test
+    public void selectOnFindMore(){
+        homePage2.setFindMore();
+    }
 
 
 }
