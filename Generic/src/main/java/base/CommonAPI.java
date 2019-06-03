@@ -485,9 +485,7 @@ public class CommonAPI {
     }
 
     //type
-    public void typeOnCss(String locator, String value) {
-        driver.findElement(By.cssSelector(locator)).sendKeys(value);
-    }
+
 
     public void typeOnID(String locator, String value) {
         driver.findElement(By.id(locator)).sendKeys(value);
