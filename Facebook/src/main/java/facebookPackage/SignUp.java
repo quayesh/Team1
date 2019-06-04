@@ -16,12 +16,12 @@ public class SignUp extends CommonAPI {
     @FindBy(name="sex")
     WebElement MF;
 
-    public void setFirstName() {
+    public void setFirstName(String abm) {
 
         FN.sendKeys("abm");
     }
 
-    public void setLastName() {
+    public void setLastName(String abm) {
 
         LN.sendKeys("Qua");
     }
@@ -37,5 +37,8 @@ public class SignUp extends CommonAPI {
     }
     public void markOnFemal(){
         MF.click();
+    }
+
+    public void HaveLogInLink() {
     }
 }

@@ -4,7 +4,6 @@ import base.CommonAPI;
 import facebookPackage.SignUp;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class TestSignUp extends CommonAPI {
@@ -18,13 +17,13 @@ public class TestSignUp extends CommonAPI {
 
     @Test
     public void setSignUp() {
-        signUp.setFirstName();
+        signUp.setFirstName("abm");
         sleepFor(3);
     }
 
     @Test
     public void setSignUp1() {
-        signUp.setLastName();
+        signUp.setLastName("Abm");
 
     }
 

@@ -14,7 +14,7 @@ public class AccountCreate extends CommonAPI {
     @FindBy(id = "Log In")
     WebElement logIn;
 
-    public void CreateAccount() {
+    public void SignUp() {
         signup.sendKeys("email");
         driver.manage().timeouts().implicitlyWait(2000, TimeUnit.SECONDS);
         driver.navigate().to("https://facebook.com");
