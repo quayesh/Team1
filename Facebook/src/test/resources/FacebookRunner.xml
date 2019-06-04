@@ -14,11 +14,13 @@
 
     <test name="Facebook Home">
         <classes>
-<!--           <class name="testFacebookPackage.TestHomePage2"/>-->
-<!--            <class name="testFacebookPackage.TestSignUp"/>-->
-<!--            <class name="testFacebookPackage.TestPlaces"/>-->
-<!--            <class name="testFacebookPackage.TestAccountSecurity"/>-->
-
+            <class name="testFacebookPackage.TestHomePage2"/>
+            <class name="testFacebookPackage.TestSignUp"/>
+            <class name="testFacebookPackage.TestPlaces"/>
+            <class name="testFacebookPackage.TestAccountSecurity"/>
+            <class name="testFacebookPackage.TestFindPage"/>
+            <class name="testFacebookPackage.TestAccountCreate"/>
+            <class name="testFacebookPackage.TestBoolean"/>
 
 
         </classes>
