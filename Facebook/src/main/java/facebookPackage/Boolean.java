@@ -12,7 +12,7 @@ public class Boolean extends CommonAPI {
     WebElement NY;
 
 
-    public void Nevada() {
+    public void nevada() {
         boolean bl = CP.isDisplayed();
         System.out.println("Nevada is displayed");
     }
@@ -30,7 +30,7 @@ public class Boolean extends CommonAPI {
         NY.sendKeys("New York");
         clickNewYork();
 
-        boolean al = NY.isDisplayed();
+        boolean bl = NY.isDisplayed();
         System.out.println("NewYork is displayed");
 
     }
